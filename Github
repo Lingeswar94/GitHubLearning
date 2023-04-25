@@ -33,6 +33,17 @@ public static void swapingwithoutZ() {
 				x = x - y;
 				System.out.println("After swaping " + x + " " + y);
 			}					
-			
+		public static void primenumber() {
+
+				int num;
+				Scanner scanner = new Scanner(System.in);
+				System.out.println("Enter the Prime number");
+				num = scanner.nextInt();
+				if (num % 2 == 1) {
+					System.out.println("Given number is prime number");
+				} else {
+					System.out.println("Giver is not prime number");
+}
+
 }
 
