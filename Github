@@ -21,3 +21,18 @@ public static void swaping() {
 				y = z;
 				System.out.println("After swaping " + x + " " + y);
 			}
+public static void swapingwithoutZ() {
+				int x, y, z;
+				Scanner scanner = new Scanner(System.in);
+				System.out.println("Enter value of X and Y ");
+				x = scanner.nextInt();
+				y = scanner.nextInt();
+				System.out.println("Before swaping " + x + " " + y);
+				x = x + y;
+				y = x - y;
+				x = x - y;
+				System.out.println("After swaping " + x + " " + y);
+			}					
+			
+}
+
